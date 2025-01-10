@@ -11,7 +11,7 @@ class Game:
 
         self.clock = pygame.time.Clock()
 
-        self.img = pygame.image.load('data/images/clouds/cloud_1.png')
+        self.img = pygame.image.load('Python/image.png')
         self.img.set_colorkey((0, 0, 0)) # for transparent background of images
 
         self.img_pos = [160, 260]
